@@ -6,6 +6,8 @@
 
 # SoundFixer for Chrome & Edge
 
+![Screenshot](Screenshot.png)
+
 🎵 **Chrome/Edge port** of the popular Firefox SoundFixer extension! 
 
 Fix annoying sound problems in web videos: sound in one channel only, too quiet or too loud.
