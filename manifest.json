@@ -3,7 +3,7 @@
   "name": "SoundFixer for Chrome & Edge",
   "author": "difome (Chrome port) • Original by Val Packett",
   "version": "2.0.0",
-  "description": "Chrome/Edge port: Fix annoying sound problems in YouTube videos and such. Audio in one channel only, too quiet or too loud - now works in Chromium browsers!",
+  "description": "Fix annoying sound problems in YouTube videos: audio in one channel only, too quiet or too loud",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
