@@ -70,6 +70,25 @@ header img:hover {
 	transform: scale(1.1);
 }
 
+.coffee-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.8rem;
+	height: 1.8rem;
+	font-size: 1.2rem;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 6px;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	margin-left: 0.8em;
+}
+
+.coffee-btn:hover {
+	background: rgba(255, 255, 255, 0.3);
+	transform: scale(1.1);
+}
+
 #elements-list, #all-elements, #individual-elements, .info {
 	background: rgba(255, 255, 255, 0.9);
 	list-style-type: none;
@@ -263,6 +282,14 @@ label input[type=checkbox] {
 	.fork-info a:hover {
 		color: #e3f2fd;
 		text-decoration-color: #e3f2fd;
+	}
+	
+	.coffee-btn {
+		background: rgba(227, 242, 253, 0.2);
+	}
+	
+	.coffee-btn:hover {
+		background: rgba(227, 242, 253, 0.3);
 	}
 	
 	header img {
