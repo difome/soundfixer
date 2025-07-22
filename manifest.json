@@ -1,48 +1,26 @@
 {
-  "manifest_version": 2,
-  "name": "SoundFixer",
-  "author": "Val Packett",
-  "version": "1.4.1",
-  "description": "Lets you fix annoying sound problems in YouTube videos and such. Like audio in one channel only, too quiet or too loud",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "soundfixer@unrelenting.technology"
-    }
-  },
+  "manifest_version": 3,
+  "name": "SoundFixer for Chrome & Edge",
+  "author": "difome (Chrome port) • Original by Val Packett",
+  "version": "2.0.0",
+  "description": "Chrome/Edge port: Fix annoying sound problems in YouTube videos and such. Audio in one channel only, too quiet or too loud - now works in Chromium browsers!",
   "icons": {
     "96": "icon.svg",
-    "48": "icon.svg"
+    "48": "icon.svg",
+    "16": "icon.svg",
+    "32": "icon.svg"
   },
   "permissions": [
     "activeTab",
-    "webNavigation"
+    "scripting"
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "icon.svg",
-    "default_title": "SoundFixer",
-    "default_popup": "popup.html",
-    "theme_icons": [
-      {
-        "dark": "icon.svg",
-        "light": "icon-inv.svg",
-        "size": 64
-      },
-      {
-        "dark": "icon.svg",
-        "light": "icon-inv.svg",
-        "size": 48
-      },
-      {
-        "dark": "icon.svg",
-        "light": "icon-inv.svg",
-        "size": 32
-      },
-      {
-        "dark": "icon.svg",
-        "light": "icon-inv.svg",
-        "size": 16
-      }
-    ],
-    "browser_style": true
-  }
+    "default_title": "SoundFixer for Chrome & Edge",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
 }

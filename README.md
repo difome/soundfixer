@@ -1,26 +1,44 @@
 [![unlicense](https://img.shields.io/badge/un-license-green.svg?style=flat)](https://unlicense.org)
-[![Mozilla Add-on](https://img.shields.io/amo/users/soundfixer?color=orange&logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/firefox/addon/soundfixer/)
-[![Support me on Patreon](https://img.shields.io/badge/dynamic/json?logo=patreon&color=%23e85b46&label=support%20me%20on%20patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F9395291)](https://www.patreon.com/valpackett)
+[![Chrome Extension](https://img.shields.io/badge/chrome-extension-green?style=flat&logo=googlechrome&logoColor=white)](https://github.com/difome/soundfixer)
+[![Edge Extension](https://img.shields.io/badge/edge-extension-blue?style=flat&logo=microsoftedge&logoColor=white)](https://github.com/difome/soundfixer)
+[![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-support-yellow?style=flat&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/n6223221)
+[![Original Firefox Extension](https://img.shields.io/amo/users/soundfixer?color=orange&logo=firefox-browser&logoColor=white&label=original%20firefox)](https://addons.mozilla.org/firefox/addon/soundfixer/)
 
-# SoundFixer
+# SoundFixer for Chrome & Edge
 
-![Screenshot](https://addons.mozilla.org/user-media/previews/full/291/291937.png?modified=1701909437)
+🎵 **Chrome/Edge port** of the popular Firefox SoundFixer extension! 
 
-a WebExtension that lets you fix annoying sound problems on the web (e.g. in YouTube videos): sound in one channel only, too quiet even at maximum volume, too loud even at minimum volume.
+Fix annoying sound problems in web videos: sound in one channel only, too quiet or too loud.
 
-[Download on addons.mozilla.org](https://addons.mozilla.org/firefox/addon/soundfixer/)!
+> **Fork** of the original [SoundFixer for Firefox](https://github.com/valpackett/soundfixer) by [Val Packett](https://github.com/valpackett).
 
-(NOTE: this SoundFixer only exists for Firefox! Anything uploaded to other browsers' extension stores is not mine! Please don't report bugs to me if you use those.)
+## Features
 
-No more "[Plug your headphones only halfway into the jack](https://news.ycombinator.com/item?id=11912213)" :D
+- **Volume Control** - Increase/decrease volume beyond system limits
+- **Audio Panning** - Shift sound left/right  
+- **Mono Mode** - Combine left and right channels
+- **Channel Swap** - Flip left and right channels
 
-(Unfortunately, doesn't work on all websites — specifically, we're not allowed to use the Web Audio API from a cross-domain `<audio>` source. Thankfully, YouTube is not cross-domain!)
+## Installation
 
-## Contributing
+### Chrome:
+1. Open `chrome://extensions/` → Enable "Developer mode" → "Load unpacked"
 
-By participating in this project you agree to follow the [Contributor Code of Conduct](https://contributor-covenant.org/version/1/4/) and to release your contributions under the Unlicense.
+### Edge:
+1. Open `edge://extensions/` → Enable "Developer mode" → "Load unpacked"
+
+## What's Changed
+
+- ✅ Manifest V3 (Chrome/Edge compatible)
+- ✅ Chrome API instead of Firefox API
+- ✅ Modern UI design
+
+Works great on YouTube and most video sites!
+
+## Support
+
+If you find this extension useful, consider [buying me a coffee](https://buymeacoffee.com/n6223221) ☕
 
 ## License
 
-This is free and unencumbered software released into the public domain.  
-For more information, please refer to the `UNLICENSE` file or [unlicense.org](https://unlicense.org).
+Public domain ([Unlicense](https://unlicense.org))
